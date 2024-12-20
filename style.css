@@ -12,6 +12,9 @@
     --deeptone: #5e5e5e;
     --dark: #080808;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #080808;
     color: var(--light);
@@ -345,6 +348,12 @@ form .btn2{
 }
 
 /*---------------Responsiveness-------------*/
-@media only screen and (max-with: 600px){
+@media only screen and (max-width: 600px){
 
+}
+
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
 }
