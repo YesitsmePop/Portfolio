@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morgan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d7bb6d3299.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!---------------header---------------->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo cornered1">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Frontend Designer & Java App developer</p>
+            <h1>Hi, I'm <span>Morgan</span> McDonald<br>From Ripon, California</h1>
+        </div>
+    </div>
+</div>
+<!---------------about---------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="aboutimg.png" class="cornered2">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Vivamus porttitor nibh eu orci aliquam, vitae egestas nibh consectetur.
+                    Vestibulum hendrerit elit ut tristique faucibus. Integer posuere nibh
+                    risus, congue feugiat elit euismod in. Pellentesque efficitur sapien ac
+                    turpis vestibulum congue. Nullam lacinia nulla velit, et pharetra nisi
+                    dictum ac. Fusce a augue enim. Quisque blandit, dui in sagittis congue,
+                    erat est posuere felis, vel egestas velit mauris sed dui. Vestibulum convallis
+                    dapibus purus nec suscipit. Proin id purus dolor. Nullam efficitur est at ex
+                    malesuada aliquam. Integer auctor libero iaculis nulla molestie, nec scelerisque risus maximus.
+                </p>
+                <!------tabs------->
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Frontend Dev + 3js work</li>
+                        <li><span>App Development</span><br>Skills in Java development</li>
+                        <li><span>Golf</span><br>Played for 4 years</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 - Current</span><br>Coding Club at local High School</li>
+                        <li><span>2023 - 2024</span><br>Self-taught; Youtube tutorials</li>
+                        <li><span>2020 - 2022</span><br>Competed in US Kids tournaments</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023 - Current</span><br>Computer science courses offered at High School</li>
+                        <li><span>2024</span><br>Youtube and miscellaneous instructors</li>
+                        <li><span>2020 - 2023</span><br>Received lessons from Manteca Park GC</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------services----------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div class="cornered1">
+                <i class="fa-regular fa-file-code"></i>
+                <h2>Web Design</h2>
+                <p>Vestibulum hendrerit elit ut tristique faucibus. Integer posuere nibh
+                    risus, congue feugiat elit euismod in.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="cornered1">
+                <i class="fa-brands fa-java"></i>
+                <h2>App Development</h2>
+                <p>Vestibulum hendrerit elit ut tristique faucibus. Integer posuere nibh
+                    risus, congue feugiat elit euismod in.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="cornered1">
+                <i class="fa-solid fa-golf-ball-tee"></i>
+                <h2>Golfing</h2>
+                <p>Vestibulum hendrerit elit ut tristique faucibus. Integer posuere nibh
+                    risus, congue feugiat elit euismod in.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------portfolio-------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>JayHunt</h3>
+                    <p>A simplistic shooter style 2D Java game where the objective is to throw rocks
+                    at birds. Nothing crazy, but was fun making due to the math behind the program.</p>
+                    <a href="JayHunt.zip" download="JayHunt"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Dot Shot</h3>
+                    <p>Another 2D Javascript game, this time a retro-themed shooter, where the goal is to
+                    blast other dots to smithereens, increasing the player's high score.</p>
+                    <a href="https://yesitsmepop.github.io/Dot-Shot/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>Opal Vox</h3>
+                    <p>Based off of the ever-popular cube game that everyone loves, Minecraft. First
+                    ever game I've made using 3js, and includes block breaking and placing mechanics,
+                    chunk loading and saving, as well as randomized terrain generation.</p>
+                    <a href="opal-vox.zip" download="opal-vox"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!------------contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>morgandeanmcd@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+1(209)-924-7863</p>
+                <div class="social-icons">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=morgandeanmcd@gmail.com&su=Your%20Subject&body=Your%20message%20here" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-stack-overflow"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Morgan McDonald</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+</body>
+</html>
