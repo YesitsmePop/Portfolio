@@ -226,7 +226,7 @@ nav ul li a:hover::after{
     width: 100%;
     display: block;
     border-radius: 2vh;
-    transition: transform 0.5s;
+    transition: transform 1s;
 }
 .layer{
     width: 100%;
@@ -263,7 +263,7 @@ nav ul li a:hover::after{
     border-radius: 50%;
 }
 .work:hover img{
-    transform: scale(1.1);
+    transform: scale(1.5);
     border-radius: 2vh;
 }
 .work:hover .layer{
@@ -310,10 +310,7 @@ nav ul li a:hover::after{
     display: inline-block;
     transition: transform 0.5s;
 }
-.btn.btn2{
-    display: inline-block;
-    background: var(--accent);
-}
+
 .social-icons a:hover{
     color: var(--accent);
     transform: translateY(-5px);
@@ -337,6 +334,8 @@ form .btn2{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+    color: var(--light);
+    background-color: var(--dark);
 }
 .copyright{
     width: 100%;
@@ -356,4 +355,6 @@ form .btn2{
     color: #61b752;
     margin-top: -40px;
     display: block;
+    justify-content: center;
+    text-align: center;
 }
